@@ -1,28 +1,24 @@
-/* ジャンケンポンゲーム */
 h1 {
   font-size: 60px;
   text-align: center;
   color: rgb(255, 255, 255);
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-/* 画像コンテナのスタイル */
 #image-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px; /* 画像の高さに合わせて調整してください */
+  height: 200px;
+  margin-bottom: 50px;
 }
-
-/* 画像のスタイル */
 #image-container img {
   display: none;
   max-height: 100%;
   max-width: 100%;
 }
 
-/* 結果コンテナ */
 #result-container {
   font-size: 24px;
   font-weight: bold;
@@ -36,8 +32,8 @@ h1 {
 p {
   text-align: center;
   color: rgb(255, 255, 255);
-  font-size: 40px;
-  margin-bottom: 100px;
+  font-size: 30px;
+  margin-bottom: 50px;
 }
 
 /* ボタン */
@@ -80,75 +76,89 @@ body {
   margin: 5px 30px;
   cursor: pointer;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 #rematch:hover {
   background-color: #333;
 }
 
-/* タブレット用のスタイル */
-@media (max-width: 1024px) {
+/* タブレット用 */
+@media only screen and (max-width: 1024px) {
   h1 {
     font-size: 40px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  #image-container {
-    height: 200px;
-  }
-
-  p {
-    font-size: 30px;
-    margin-bottom: 50px;
-  }
-
-  button {
-    padding: 15px 30px;
-    font-size: 14px;
-    margin: 5px 20px;
-    margin-bottom: 30px;
-  }
-
-  #rematch {
-    padding: 15px 30px;
-    font-size: 14px;
-    margin: 5px 20px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-}
-
-/* iPhone用のスタイル */
-@media (max-width: 414px) {
-  h1 {
-    font-size: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-
+  
   #image-container {
     height: 150px;
+    margin-bottom: 30px;
   }
-
+  
+  #result-container {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
   p {
     font-size: 24px;
     margin-bottom: 30px;
   }
-
+  
   button {
-    padding: 12px 24px;
-    font-size: 12px;
-    margin: 5px 10px;
+    padding: 15px 30px;
+    font-size: 14px;
+    margin: 5px 20px;
+    margin-bottom: 30px;
+  }
+  
+  #rematch {
+    padding: 15px 30px;
+    font-size: 14px;
+    margin: 5px 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+}
+
+/* iPhone用 */
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
-
-  #rematch {
-    padding: 12px 24px;
-    font-size: 12px;
-    margin: 5px 10px;
+  
+  #image-container {
+    height: 120px;
     margin-bottom: 20px;
-    margin-top: 20px;
+  }
+  
+  #result-container {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 12px;
+    margin: 5px 15px;
+    margin-bottom: 20px;
+  }
+  
+  #rematch {
+    padding: 10px 20px;
+    font-size: 12px;
+    margin: 5px 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 }

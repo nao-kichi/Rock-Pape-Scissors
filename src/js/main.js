@@ -72,7 +72,7 @@ function displayImagesWithDelay(delay) {
 var startButton = document.getElementById("rematch");
 startButton.addEventListener("click", function () {
   resultContainer.textContent = "";
-  displayImagesWithDelay(500);
+  displayImagesWithDelay(50);
 });
 
-displayImagesWithDelay(500);
+displayImagesWithDelay(50);
