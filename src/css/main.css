@@ -10,7 +10,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 300px;
   margin-bottom: 50px;
 }
 #image-container img {
@@ -92,7 +92,7 @@ body {
   }
   
   #image-container {
-    height: 150px;
+    height: 200px;
     margin-bottom: 30px;
   }
   
@@ -132,7 +132,7 @@ body {
   }
   
   #image-container {
-    height: 120px;
+    height: 150px;
     margin-bottom: 20px;
   }
   
