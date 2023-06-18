@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>じゃんけんゲーム</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./src/css/main.css">
 </head>
 <body>
 
-<h1>ジャンケンポンゲーム</h1>
+    <h1>ジャンケンポンゲーム</h1>
+    <div id="image-container"></div>
+    <div id="result-container"></div>
+
+    <p id="result"></p>
+
     <p>あなたの手を選んでください。</p>
-
     <div class="content">
-          <button>グー</button>
-          <button>チョキ</button>
-          <button>パー</button>
-      </div>
+        <button>グー</button>
+        <button>チョキ</button>
+        <button>パー</button>
+    </div>
 
-      <!-- 勝負結果を出力 -->
-    <div id="result"></div>
 
-    <script src="js/main.js"></script>
+    <!-- 再勝負 -->
+    <button id="rematch">rematch</button>
+
+    <script src="./src/js/main.js"></script>
 </body>
+
 </html>
