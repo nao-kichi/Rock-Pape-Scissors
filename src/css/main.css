@@ -88,61 +88,67 @@ body {
 }
 
 /* タブレット用のスタイル */
-@media screen and (max-width: 768px) {
-
-  body {
-    font-size: 16px;
-  }
-
+@media (max-width: 1024px) {
   h1 {
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
   }
 
+  #image-container {
+    height: 200px;
+  }
+
   p {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 50px;
   }
 
   button {
-    padding: 8px 16px;
+    padding: 15px 30px;
     font-size: 14px;
+    margin: 5px 20px;
     margin-bottom: 30px;
   }
 
-  #result {
-    font-size: 16px;
-    margin-top: 20px;
+  #rematch {
+    padding: 15px 30px;
+    font-size: 14px;
+    margin: 5px 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 }
 
-/* スマートフォン用のスタイル */
-@media screen and (max-width: 480px) {
-
-  body {
-    font-size: 14px;
-  }
-
+/* iPhone用のスタイル */
+@media (max-width: 414px) {
   h1 {
-    font-size: 32px;
+    font-size: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
 
+  #image-container {
+    height: 150px;
+  }
+
   p {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 30px;
   }
 
   button {
-    padding: 8px 12px;
+    padding: 12px 24px;
     font-size: 12px;
+    margin: 5px 10px;
     margin-bottom: 20px;
   }
 
-  #result {
-    font-size: 14px;
-    margin-top: 10px;
+  #rematch {
+    padding: 12px 24px;
+    font-size: 12px;
+    margin: 5px 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
