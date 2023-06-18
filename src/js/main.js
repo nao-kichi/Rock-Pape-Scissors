@@ -1,9 +1,10 @@
 
 var imageUrls = [
-  "./src/image/ぐー.png",
-  "./src/image/ちょき.png",
-  "./src/image/ぱー.png"
+  "https://github.com/nao-kichi/Rock-Pape-Scissors/blob/main/src/image/%E3%81%90%E3%83%BC.png?raw=true",
+  "https://github.com/nao-kichi/Rock-Pape-Scissors/blob/main/src/image/%E3%81%A1%E3%82%87%E3%81%8D.png?raw=true",
+  "https://github.com/nao-kichi/Rock-Pape-Scissors/blob/main/src/image/%E3%81%B1%E3%83%BC.png?raw=true"
 ];
+
 
 var imageContainer = document.getElementById("image-container");
 var resultContainer = document.getElementById("result-container");
